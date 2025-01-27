@@ -1,0 +1,120 @@
+{
+    "sender_analysis": {
+        "from_address": "Google Formulieren <forms-receipts-noreply@google.com>",
+        "spf_valid": true,
+        "dkim_valid": false
+    },
+    "subject_analysis": {
+        "subject": "\u2116-7267983M. Get your crypto assets, withdrawal approved, from: 0,37397762 BTC",
+        "contains_phishing_keywords": true
+    },
+    "body_analysis": {
+        "links": [
+            "https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/viewform?usp=mail_form_link",
+            "https://fonts.googleapis.com/css?family=Google+Sans_old:400,500|Roboto_old:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext);</style><style",
+            "https://docs.google.com/forms/d/e/1FAIpQLSe0PvMhJG32AMZMLP2IR9qaQuAnwHjmN3-qs78gkwaJhghJkg/viewform",
+            "https://www.gstatic.com/docs/forms/google_forms_logo_lockup_black_2x.png",
+            "https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/viewform&usp=mail_receipt_abuse",
+            "https://docs.google.com/forms?usp=mail_form_link"
+        ],
+        "link_analysis": [
+            {
+                "original_url": "https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/viewform?usp=mail_form_link",
+                "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/viewform?usp=mail_form_link",
+                "domain": "docs.google.com",
+                "resolved": true,
+                "ssl_valid": true,
+                "suspicious": {
+                    "ip_based": false,
+                    "shortened": false,
+                    "suspicious_tld": false,
+                    "unresolvable_domain": false,
+                    "invalid_ssl": false,
+                    "trusted_abuse": true
+                }
+            },
+            {
+                "original_url": "https://fonts.googleapis.com/css?family=Google+Sans_old:400,500|Roboto_old:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext);</style><style",
+                "final_url": "https://fonts.googleapis.com/css?family=Google+Sans_old:400,500%7CRoboto_old:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext);%3C/style%3E%3Cstyle",
+                "domain": "fonts.googleapis.com",
+                "resolved": true,
+                "ssl_valid": false,
+                "suspicious": {
+                    "ip_based": false,
+                    "shortened": false,
+                    "suspicious_tld": false,
+                    "unresolvable_domain": false,
+                    "invalid_ssl": true,
+                    "trusted_abuse": false,
+                    "redirects_to_suspicious": false
+                }
+            },
+            {
+                "original_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0PvMhJG32AMZMLP2IR9qaQuAnwHjmN3-qs78gkwaJhghJkg/viewform",
+                "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0PvMhJG32AMZMLP2IR9qaQuAnwHjmN3-qs78gkwaJhghJkg/viewform",
+                "domain": "docs.google.com",
+                "resolved": true,
+                "ssl_valid": true,
+                "suspicious": {
+                    "ip_based": false,
+                    "shortened": false,
+                    "suspicious_tld": false,
+                    "unresolvable_domain": false,
+                    "invalid_ssl": false,
+                    "trusted_abuse": true
+                }
+            },
+            {
+                "original_url": "https://www.gstatic.com/docs/forms/google_forms_logo_lockup_black_2x.png",
+                "final_url": "https://www.gstatic.com/docs/forms/google_forms_logo_lockup_black_2x.png",
+                "domain": "www.gstatic.com",
+                "resolved": true,
+                "ssl_valid": true,
+                "suspicious": {
+                    "ip_based": false,
+                    "shortened": false,
+                    "suspicious_tld": false,
+                    "unresolvable_domain": false,
+                    "invalid_ssl": false,
+                    "trusted_abuse": false
+                }
+            },
+            {
+                "original_url": "https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/viewform&usp=mail_receipt_abuse",
+                "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSdhix0jIL3Iy7qgteb0Rn_0avpYwUmXcr4ZtqwbOhUoQ4UF8Q/viewform&usp=mail_receipt_abuse",
+                "domain": "docs.google.com",
+                "resolved": true,
+                "ssl_valid": true,
+                "suspicious": {
+                    "ip_based": false,
+                    "shortened": false,
+                    "suspicious_tld": false,
+                    "unresolvable_domain": false,
+                    "invalid_ssl": false,
+                    "trusted_abuse": true
+                }
+            },
+            {
+                "original_url": "https://docs.google.com/forms?usp=mail_form_link",
+                "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fcreate%3Fusp%3Dmail_form_link&followup=https%3A%2F%2Fdocs.google.com%2Fforms%2Fcreate%3Fusp%3Dmail_form_link&ifkv=AVdkyDm1dy2-pen-55Tc1C71cyqsp4L1AIIik6gSXr7UbCCs5VwxBM1kxAxKr04MpUo82QP2LLgH&ltmpl=forms&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-402144029%3A1738002026012795",
+                "domain": "docs.google.com",
+                "resolved": true,
+                "ssl_valid": true,
+                "suspicious": {
+                    "ip_based": false,
+                    "shortened": false,
+                    "suspicious_tld": false,
+                    "unresolvable_domain": false,
+                    "invalid_ssl": false,
+                    "trusted_abuse": true,
+                    "redirects_to_suspicious": false
+                }
+            }
+        ],
+        "body_score": 0
+    },
+    "overall_score": {
+        "score": 19,
+        "classification": "suspicious"
+    }
+}
